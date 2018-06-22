@@ -13,5 +13,5 @@ end
 
 def take_a_number(katz_deli, new_person)
   katz_deli.push(new_person)
-  puts katz_deli.size
+  puts "Welcome, Ada. You are number #{katz_deli.size} in line."
 end
